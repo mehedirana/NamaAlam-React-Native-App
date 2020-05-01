@@ -2,16 +2,16 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Appbar } from 'react-native-paper';
 
-const MyHeader= () =>{
+const MyHeader= (props) =>{
 
     return (
-        <Appbar.Header style={{backgroundColor:"#191cd2"}}>        
-          <Appbar.Content
-            title="Key of Jannah"
-            subtitle="NAMAZ"
-          />
-         
-        </Appbar.Header>
+        <View>
+            <Appbar.Header style={{backgroundColor:"#191cd2"}}>        
+              <Text style={{marginLeft:20, fontSize:25, fontWeight:'bold',color:'#FFFF'}}>{props.name}</Text>
+            </Appbar.Header>
+        </View>
+        
+        
       );
 }
 

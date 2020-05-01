@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import MyHeader from '../components/MyHeader'
+import ViewHolder from '../components/ViewHolder'
 
-const RozaScreen = () => {
+const RozaScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <MyHeader />
-            <Text>I m from Roza!</Text>
+            <MyHeader name="Roza" />
         </View>
     );
 }
@@ -14,8 +14,8 @@ const RozaScreen = () => {
 export default RozaScreen;
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: '#fff',
-   
+        flex: 1,
+        backgroundColor: '#fff',
+
     },
-  });
+});

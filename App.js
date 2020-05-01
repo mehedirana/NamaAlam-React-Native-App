@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MyHeader from './components/MyHeader';
+import NamajScreen from './screens/NamajScreen';
+import RozaScreen from './screens/RozaScreen';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -8,10 +10,8 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <View style={styles.container}>
-      <MyHeader/>
-      <Text>Welcome!</Text>
       <NavigationContainer>
-        <Drawer.Navigator>
+        <Drawer.Navigator initialRouteName="Namaj">
           <Drawer.Screen name="Namaj" component={NamajScreen}/>
           <Drawer.Screen name="Roza" component={RozaScreen}/>
         </Drawer.Navigator>
