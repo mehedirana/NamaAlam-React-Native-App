@@ -7,13 +7,13 @@ import ViewHolder from '../components/ViewHolder';
 const NamajScreen = ({navigation}) => {
     return (
         <View style={styles.container}>
-            <MyHeader name="Namaj"/>
+            <MyHeader name="নামায"/>
             <ScrollView>
-                <ViewHolder abc="Fozor" />
-                <ViewHolder abc="Johor" />
-                <ViewHolder abc="Ashor" />
-                <ViewHolder abc="Maghrib" />
-                <ViewHolder abc="Asha" />
+                <ViewHolder abc="ফজর" />
+                <ViewHolder abc="যোহর" />
+                <ViewHolder abc="আছর" />
+                <ViewHolder abc="মাগরিব" />
+                <ViewHolder abc="এশা" />
             </ScrollView>
         </View>
     );

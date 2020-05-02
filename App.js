@@ -12,8 +12,8 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
         <Drawer.Navigator initialRouteName="Namaj">
-          <Drawer.Screen name="Namaj" component={NamajScreen}/>
-          <Drawer.Screen name="Roza" component={RozaScreen}/>
+          <Drawer.Screen name="নামায" component={NamajScreen}/>
+          <Drawer.Screen name="রোজা" component={RozaScreen}/>
         </Drawer.Navigator>
       </NavigationContainer>
     </View>

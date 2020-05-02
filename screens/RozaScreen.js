@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyleSheet, View, ScrollView } from 'react-native';
+import { StyleSheet, View, ScrollView, Text} from 'react-native';
 import MyHeader from '../components/MyHeader'
 import ViewHolder from '../components/ViewHolder'
 
 const RozaScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
-            <MyHeader name="Roza" />
+            <MyHeader name="রোযা" />
         </View>
     );
 }

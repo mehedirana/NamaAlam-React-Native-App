@@ -32,10 +32,10 @@ const ViewHolder = (props) => {
                 </View>
                 <View style={{ flexDirection: "row", justifyContent: 'space-around', padding: 10, }}>
                     <Button mode="contained" style={{ backgroundColor: '#191cd2', borderRadius: 40 }}>
-                        Start Time
+                        ওয়াক্ত শুরু
                     </Button>
                     <Button mode="contained" style={{ backgroundColor: '#191cd2', borderRadius: 40 }}>
-                        End Time
+                        ওয়াক্ত শেষ
                     </Button>
                 </View>
                 <Card.Content>
